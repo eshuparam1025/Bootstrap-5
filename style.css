@@ -10,3 +10,9 @@ body::before{
         width: 50%;
     }
 }
+
+@media(max-width: 767.5px){
+    .learn-react{
+        flex-direction: column-reverse !important;
+    }
+}
